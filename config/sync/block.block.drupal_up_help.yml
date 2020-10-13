@@ -1,0 +1,22 @@
+uuid: 15fe30d5-e9bc-4655-9d8c-c4d314ee65fb
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - drupal_up
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: drupal_up_help
+theme: drupal_up
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

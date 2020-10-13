@@ -1,0 +1,22 @@
+uuid: 5b79cf94-edea-4637-84b8-62170427aa85
+langcode: en
+status: true
+dependencies:
+  theme:
+    - drupal_up
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: drupal_up_local_tasks
+theme: drupal_up
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

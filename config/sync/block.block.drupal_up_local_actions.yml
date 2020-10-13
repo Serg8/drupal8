@@ -1,0 +1,20 @@
+uuid: d999a3f8-82d5-4134-a043-5992c4cf0b6b
+langcode: en
+status: true
+dependencies:
+  theme:
+    - drupal_up
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: drupal_up_local_actions
+theme: drupal_up
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

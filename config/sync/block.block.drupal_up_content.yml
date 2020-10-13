@@ -1,0 +1,22 @@
+uuid: 77ea83e4-de36-4252-90e4-dc5c991b8dc7
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - drupal_up
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: drupal_up_content
+theme: drupal_up
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }
